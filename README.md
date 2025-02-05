@@ -1,4 +1,4 @@
-# 🎲 MagicNewton Dice Bot (Puppeteer)
+# 🎲 MagicNewton Dice Bot
 
 A simple Puppeteer bot to automate rolling dice on [MagicNewton](https://www.magicnewton.com/portal/rewards). The bot logs in using session cookies and attempts to roll the dice whenever it's available.
 
@@ -6,7 +6,9 @@ A simple Puppeteer bot to automate rolling dice on [MagicNewton](https://www.mag
 - **Automated Dice Rolling:** 
 - **Credit & Email Display:** 
 - **Smart Timer:** 
-- **Runs in a Loop every 24 hours** 
+- **Runs in a Loop every 24 hours**
+
+## ✨ DONT FORGET TO FOLLOW AND SHOW YOUR SUPPORT WITH A STAR
 
 ## 🛠️ Installation
 
@@ -30,7 +32,12 @@ You need session cookies to stay logged in. Here's how to get them:
 3. Go to the **Application** tab → **Storage** → **Cookies**.
 4. Copy all cookies and save them in a file named `cookies.json` inside the bot folder.
 
-### 4️⃣ Run the bot
+### 4️⃣ Edit **Cookies.json** file (To save, Edit, CTRL+X , Y, Then, Enter)
+```sh
+nano cookies.json
+```
+
+### 5️⃣ Run the bot
 ```sh
 node bot.js
 ```
