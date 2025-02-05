@@ -20,8 +20,7 @@ cd magicnewton-bot
 
 ### 2️⃣ Install dependencies
 ```sh
-npm install
-
+npm install puppeteer
 ```
 
 ### 3️⃣ Get Your Session Cookies
@@ -30,7 +29,8 @@ You need session cookies to stay logged in. Here's how to get them:
 1. Open **MagicNewton** in Chrome.
 2. Press `F12` or `Ctrl + Shift + I` to open DevTools.
 3. Go to the **Application** tab → **Storage** → **Cookies**.
-4. Copy all cookies and save them in a file named `cookies.json` inside the bot folder.
+4. Look for the cookie named __Secure-next-auth.session-token.
+5. Copy its value.
 
 ### 4️⃣ Edit **Cookies.json** file (To save, Edit, CTRL+X , Y, Then, Enter)
 ```sh
