@@ -14,7 +14,7 @@ A simple Puppeteer bot to automate rolling dice on [MagicNewton](https://www.mag
 
 ### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/hardeeps647/magicnewton-bot.git
+git clone https://github.com/hardeeps647/magicnewton-bot.git 
 cd magicnewton-bot
 ```
 
