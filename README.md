@@ -35,6 +35,9 @@ You need session cookies to stay logged in. Here's how to get them:
 5. Copy its value.
 
 ### 4️⃣ Edit **Cookies.json** file (To save, Edit, CTRL+X , Y, Then, Enter)
+
+![MagicNewton Dice Bot](https://raw.githubusercontent.com/hardeeps647/magicnewton-bot/main/FDGSFGED.PNG)
+
 ```sh
 nano cookies.json
 ```
