@@ -1,0 +1,10 @@
+[
+    {
+        "name": "__Secure-next-auth.session-token",
+        "value": "",
+        "domain": ".magicnewton.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true
+    }
+]
