@@ -26,6 +26,8 @@ npm install puppeteer
 ### 3️⃣ Get Your Session Cookies
 You need session cookies to stay logged in. Here's how to get them:
 
+https://raw.githubusercontent.com/hardeeps647/magicnewton-bot/main/hgfdfgh.PNG
+
 1. Open **MagicNewton** in Chrome.
 2. Press `F12` or `Ctrl + Shift + I` to open DevTools.
 3. Go to the **Application** tab → **Storage** → **Cookies**.
