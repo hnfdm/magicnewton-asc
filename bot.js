@@ -1,6 +1,3 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
-
 console.log(`
   ██████╗ ███████╗███████╗██████╗ 
   ██╔══██╗██╔════╝██╔════╝██╔══██╗
@@ -20,6 +17,8 @@ console.log(`
     `);
     console.log(`****Created by Hardeep****`);  
     
+const puppeteer = require('puppeteer');
+const fs = require('fs');
 const MAGICNEWTON_URL = "https://www.magicnewton.com/portal/rewards";
 const DEFAULT_SLEEP_TIME = 24 * 60 * 60 * 1000; // 24 hours
 const RANDOM_EXTRA_DELAY = () => Math.floor(Math.random() * (60 - 20 + 1) + 20) * 60 * 1000; // 20-60 mins random delay
@@ -41,7 +40,6 @@ function parseTimeString(timeStr) {
 
 async function showLiveCountdown(totalMs) {
   while (totalMs > 0) {
-    console.clear();
     const hours = Math.floor(totalMs / (1000 * 60 * 60));
     const minutes = Math.floor((totalMs % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((totalMs % (1000 * 60)) / 1000);
@@ -58,6 +56,7 @@ async function showLiveCountdown(totalMs) {
   while (true) {
     try {
       console.clear();
+      console.log("🔄 New cycle started...");
       const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
       const page = await browser.newPage();
 
