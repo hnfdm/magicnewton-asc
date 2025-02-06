@@ -46,6 +46,18 @@ nano cookies.json
 node bot.js
 ```
 
+## Updating the Bot
+
+To update the bot with the latest changes, run:
+```sh
+git pull
+```
+
+## After updating, restart the bot using:
+```sh
+node bot.js
+```
+  
 ## 📌 Notes
 - The bot runs **headless** (in the background). Change `headless: true` to `headless: false` if you want to see the browser.
 - If the "Roll" button isn't available, the bot will wait and display the countdown timer.
