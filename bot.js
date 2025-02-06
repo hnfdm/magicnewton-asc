@@ -19,6 +19,7 @@ console.log(`
     
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const readline = require('readline');
 const MAGICNEWTON_URL = "https://www.magicnewton.com/portal/rewards";
 const DEFAULT_SLEEP_TIME = 24 * 60 * 60 * 1000; // 24 hours
 const RANDOM_EXTRA_DELAY = () => Math.floor(Math.random() * (60 - 20 + 1) + 20) * 60 * 1000; // 20-60 mins random delay
@@ -43,7 +44,9 @@ async function showLiveCountdown(totalMs) {
     const hours = Math.floor(totalMs / (1000 * 60 * 60));
     const minutes = Math.floor((totalMs % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((totalMs % (1000 * 60)) / 1000);
-    console.log(`⏳ Next roll available in: ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} `);
+    readline.clearLine(process.stdout, 0);
+    readline.cursorTo(process.stdout, 0);
+    process.stdout.write(`⏳ Next roll available in: ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} `);
     await delay(1000);
     totalMs -= 1000;
   }
