@@ -20,7 +20,6 @@ console.log(`
     `);
     console.log(`****Created by Hardeep****`);  
     
-
 const MAGICNEWTON_URL = "https://www.magicnewton.com/portal/rewards";
 const DEFAULT_SLEEP_TIME = 24 * 60 * 60 * 1000; // 24 hours
 const RANDOM_EXTRA_DELAY = () => Math.floor(Math.random() * (60 - 20 + 1) + 20) * 60 * 1000; // 20-60 mins random delay
