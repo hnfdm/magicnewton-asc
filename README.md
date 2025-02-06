@@ -46,14 +46,14 @@ nano cookies.json
 node bot.js
 ```
 
-## Updating the Bot
+## ***Updating the Bot***
 
 To update the bot with the latest changes, run:
 ```sh
 git pull
 ```
 
-## After updating, restart the bot using:
+## ***After updating, restart the bot using:***
 ```sh
 node bot.js
 ```
