@@ -14,17 +14,17 @@ A simple bot to automate rolling dice on [MagicNewton](https://magicnewton.com/p
 
 ### 🛠️ Installation
 
-### 1️⃣ Clone repository
+#### 1️⃣ Clone repository
 ```sh
 git clone https://github.com/hnfdm/magicnewton-asc.git 
 ```
 
-### 2️⃣ Enter & install dependencies
+#### 2️⃣ Enter & install dependencies
 ```sh
 cd magicnewton-asc && npm i fs https-proxy-agent puppeteer readline
 ```
 
-### 3️⃣ Edit **Config.json** file
+#### 3️⃣ Edit **Config.json** file
 
 ```sh
 nano config.json
@@ -34,7 +34,7 @@ nano config.json
 - Set proxy in http/https format
 - Add more account if neeeded
 
-### 4️⃣ Get Your Session Cookies
+#### 4️⃣ Get Your Session Cookies
 You need session cookies to stay logged in. Here's how to get them:
 
 - Open **MagicNewton** in Chrome.
@@ -43,10 +43,14 @@ You need session cookies to stay logged in. Here's how to get them:
 - Look for the cookie named __Secure-next-auth.session-token.
 - Copy its value.
 
-### 5️⃣ Run the bot
+#### 5️⃣ Run the bot
 ```sh
 node main.js
 ```
+
+### 🛒 Prerequisite
+- Chromium
+- Proxy
 
 ### ⚠️ Warning
 **Use at your own risk. Automating websites might go against their terms of service.**
