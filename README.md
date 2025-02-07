@@ -31,18 +31,18 @@ npm i
 nano config.json
 ```
 
-1. Set email address as alias.
-2. Set proxy in http/https format
-3. Add more account if neeeded
+- Set email address as alias.
+- Set proxy in http/https format
+- Add more account if neeeded
 
 ### 4️⃣ Get Your Session Cookies
 You need session cookies to stay logged in. Here's how to get them:
 
-1. Open **MagicNewton** in Chrome.
-2. Press `F12` or `Ctrl + Shift + I` to open DevTools.
-3. Go to the **Application** tab → **Storage** → **Cookies**.
-4. Look for the cookie named __Secure-next-auth.session-token.
-5. Copy its value.
+- Open **MagicNewton** in Chrome.
+- Press `F12` or `Ctrl + Shift + I` to open DevTools.
+- Go to the **Application** tab → **Storage** → **Cookies**.
+- Look for the cookie named __Secure-next-auth.session-token.
+- Copy its value.
 
 ### 5️⃣ Run the bot
 ```sh
