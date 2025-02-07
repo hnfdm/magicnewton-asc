@@ -14,15 +14,14 @@ A simple bot to automate rolling dice on [MagicNewton](https://magicnewton.com/p
 
 ### 🛠️ Installation
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone repository
 ```sh
 git clone https://github.com/hnfdm/magicnewton-asc.git 
-cd magicnewton-asc
 ```
 
-### 2️⃣ Install dependencies
+### 2️⃣ Enter & install dependencies
 ```sh
-npm i
+cd magicnewton-asc && npm i
 ```
 
 ### 3️⃣ Edit **Config.json** file
