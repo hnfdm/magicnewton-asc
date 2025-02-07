@@ -21,7 +21,7 @@ git clone https://github.com/hnfdm/magicnewton-asc.git
 
 ### 2️⃣ Enter & install dependencies
 ```sh
-cd magicnewton-asc && npm i
+cd magicnewton-asc && npm i fs https-proxy-agent puppeteer readline
 ```
 
 ### 3️⃣ Edit **Config.json** file
