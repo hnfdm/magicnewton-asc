@@ -1,0 +1,30 @@
+[
+    {
+        "email": "email1@gmail.com",
+        "proxy": "http://username:pass@ip:10005",
+        "cookies": [
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJ...",
+            "domain": ".magicnewton.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true
+          }
+        ]
+    },
+    {
+        "email": "email2@gmail.com",
+        "proxy": "http://username:pass@ip:port",
+        "cookies": [
+          {
+            "name": "__Secure-next-auth.session-token",
+            "value": "eyJ...",
+            "domain": ".magicnewton.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true
+          }
+        ]
+    }
+]
