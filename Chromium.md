@@ -1,33 +1,43 @@
-#### 1️⃣ Clone repository
+#### 1️⃣ Install chromium
 ```sh
-git clone https://github.com/hnfdm/magicnewton-asc.git 
+sudo apt-get update && sudo apt-get install -y chromium-browser
 ```
 
-#### 2️⃣ Enter & install dependencies
+#### 2️⃣ Install dependencies
 ```sh
-cd magicnewton-asc && npm i fs https-proxy-agent puppeteer readline
+sudo apt-get install -y \
+  wget \
+  ca-certificates \
+  fonts-liberation \
+  libappindicator3-1 \
+  libasound2 \
+  libatk-bridge2.0-0 \
+  libatk1.0-0 \
+  libcups2 \
+  libdbus-1-3 \
+  libgdk-pixbuf2.0-0 \
+  libnspr4 \
+  libnss3 \
+  libx11-xcb1 \
+  libxcomposite1 \
+  libxdamage1 \
+  libxrandr2 \
+  xdg-utils \
+  libu2f-udev \
+  libv4l-0 \
+  libv4l-dev \
+  libappindicator1 \
+  libxtst6 \
+  libpci3 \
+  libgdk-pixbuf2.0-dev \
+  libnspr4-dev \
+  libnss3-dev \
+  libatk1.0-dev \
+  libatk-bridge2.0-dev
 ```
 
-#### 3️⃣ Edit **Config.json** file
+#### 3️⃣ Check version
 
 ```sh
-nano config.json
-```
-
-- Set email address as alias.
-- Set proxy in http/https format
-- Add more account if neeeded
-
-#### 4️⃣ Get Your Session Cookies
-You need session cookies to stay logged in. Here's how to get them:
-
-- Open **MagicNewton** in Chrome.
-- Press `F12` or `Ctrl + Shift + I` to open DevTools.
-- Go to the **Application** tab → **Storage** → **Cookies**.
-- Look for the cookie named __Secure-next-auth.session-token.
-- Copy its value.
-
-#### 5️⃣ Run the bot
-```sh
-node main.js
+chromium-browser --version
 ```

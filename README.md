@@ -43,14 +43,19 @@ You need session cookies to stay logged in. Here's how to get them:
 - Look for the cookie named __Secure-next-auth.session-token.
 - Copy its value.
 
-#### 5️⃣ Run the bot
+#### 5️⃣ Run the bot for Linux GUI
 ```sh
-node main.js
+node mainL.js
 ```
 
+#### 5️⃣ Run the bot for VPS
+```sh
+node mainV.js
+```
+
+
 ### 🛒 Prerequisite
-- Chromium
-- Proxy
+- Chromium (App not docker)
 
 ### ⚠️ Warning
 **Use at your own risk. Automating websites might go against their terms of service.**
