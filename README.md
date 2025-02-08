@@ -3,12 +3,12 @@
 A simple bot to automate rolling dice on [MagicNewton](https://magicnewton.com/portal?referral=1wquyb5g2j948294). The bot logs in using session cookies and proxy also attempts to roll the dice whenever it's available.
 
 ### 🚀 Features
-- **Automated Dice Rolling** 
-- **Credit & Email Display** 
-- **Smart Timer** 
-- **Multi Account**
-- **Proxy Support**
-- **Runs in a Loop every 24 hours**
+- *Automated Dice Rolling* 
+- *Credit & Email Display* 
+- *Smart Timer* 
+- *Multi Account*
+- *Proxy Support*
+- *Runs in a Loop every 24 hours*
 
 ### ✨ DONT FORGET TO FOLLOW AND SHOW YOUR SUPPORT WITH A STAR
 
@@ -56,6 +56,7 @@ node mainV.js
 
 ### 🛒 Prerequisite
 - Chromium (App not docker)
+- Read Chromium.md for install
 
 ### ⚠️ Warning
 **Use at your own risk. Automating websites might go against their terms of service.**
