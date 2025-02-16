@@ -1,30 +1,30 @@
 [
-    {
-        "email": "email1@gmail.com",
-        "proxy": "http://username:pass@ip:10005",
-        "cookies": [
-          {
-            "name": "__Secure-next-auth.session-token",
-            "value": "eyJ...",
-            "domain": ".magicnewton.com",
-            "path": "/",
-            "secure": true,
-            "httpOnly": true
-          }
-        ]
-    },
-    {
-        "email": "email2@gmail.com",
-        "proxy": "http://username:pass@ip:port",
-        "cookies": [
-          {
-            "name": "__Secure-next-auth.session-token",
-            "value": "eyJ...",
-            "domain": ".magicnewton.com",
-            "path": "/",
-            "secure": true,
-            "httpOnly": true
-          }
-        ]
-    }
+  {
+    "email": "rihimos363@nike4s.com",
+    "proxy": "http://username:pass@ip:port",
+    "cookies": [
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..R16WzfzzspSbx4Nf.nwasbGm6Z1IIRYynVjbBJaOKC_ud-LB0MHS0Qem2vf06HFynJVcEZWXaFD395RZ75kZgTNdFgZoyh1Sg1xnxviKXFbhSVl5wrvK3hzmjGz3z991h_DchbKC68uQDq2G6L6oLgP6kv4Wg5_9jyv88niSQSW1_ZX9i_zQmO__WH_3O_npGH7skk6jr5fb8pJQrH9BgrZ-ZMMpax2ilChVFvIRTvyvq3IR_R_KKadJMxZJqfLaNg3BAMYkR8YIqc4LQqQAwaVeRvlyQMWBRb7a2usQkjYbKZyCM8GCi-ZmWSuQ.L28nBfXFywL4CGij5AJ9Iw",
+        "domain": ".magicnewton.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true
+      }
+    ]
+  },
+  {
+    "email": "email@okeoke.com",
+    "proxy": "http://username:pass@ip:port",
+    "cookies": [
+      {
+        "name": "__Secure-next-auth.session-token",
+        "value": "eyJ....",
+        "domain": ".magicnewton.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true
+      }
+    ]
+  }
 ]

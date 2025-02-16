@@ -44,13 +44,9 @@ You need session cookies to stay logged in. Here's how to get them:
 - Copy its value.
 
 #### 5️⃣ Run the bot
-- For Linux GUI
-```sh
-node mainL.js
-```
 - For VPS
 ```sh
-node mainV.js
+node main.js
 ```
 
 ### 🛒 Prerequisite
