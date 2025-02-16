@@ -52,6 +52,7 @@ node main.js
 ### 🛒 Prerequisite
 - Chromium (App not docker)
 - Read Chromium.md for install
+- Proxy
 
 ### ⚠️ Warning
 **Use at your own risk. Automating websites might go against their terms of service.**
