@@ -143,7 +143,7 @@ async function handleAccount(account) {
             await delay(20000);
 
             // Click 'Bank' button
-            const bankClicked = await page.$$eval('button', buttons => {
+            /*const bankClicked = await page.$$eval('button', buttons => {
             const target = buttons.find(btn => btn.innerText && btn.innerText.includes("Bank"));
                 if (target) {
                     target.click();
@@ -160,11 +160,11 @@ async function handleAccount(account) {
                 console.log(`💰 [${account.email}] Updated Credits: ${userCredits}`);
             } else {
                 console.log(`⚠️ [${account.email}] 'Bank' button not found.`);
-            }
-            /*console.log(`⏳ [${account.email}] Waiting 5 seconds for sync...`);
+            }*/
+            console.log(`⏳ [${account.email}] Waiting 5 seconds for sync...`);
             await delay(5000);
             userCredits = await page.$eval('#creditBalance', el => el.innerText).catch(() => 'Unknown');
-            console.log(`💰 [${account.email}] Updated Credits: ${userCredits}`);*/
+            console.log(`💰 [${account.email}] Updated Credits: ${userCredits}`);
     
         } else {
             console.log(`⚠️ [${account.email}] 'Throw Dice' button not found.`);
