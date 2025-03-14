@@ -88,7 +88,7 @@ async function handleAccount(account) {
     await page.goto(MAGICNEWTON_URL, { waitUntil: 'networkidle2', timeout: 60000 });
     console.log(`🌐 [${account.email}] Page loaded.`);
     
-    await page.waitForSelector('p.gGRRlH.WrOCw.AEdnq.hGQgmY.jdmPpC', { timeout: 30000 });
+    //await page.waitForSelector('p.gGRRlH.WrOCw.AEdnq.hGQgmY.jdmPpC', { timeout: 30000 });
     
     const userEmail = await page.$eval('p.gGRRlH.WrOCw.AEdnq.hGQgmY.jdmPpC', el => el.innerText).catch(() => 'Unknown');
     console.log(`📧 [${account.email}] Logged in as: ${userEmail}`);
