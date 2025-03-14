@@ -161,6 +161,7 @@ async function handleAccount(account) {
             } else {
                 console.log(`⚠️ [${account.email}] 'Bank' button not found.`);
             }*/
+          
             console.log(`⏳ [${account.email}] Waiting 5 seconds for sync...`);
             await delay(5000);
             userCredits = await page.$eval('#creditBalance', el => el.innerText).catch(() => 'Unknown');
